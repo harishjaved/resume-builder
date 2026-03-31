@@ -1,3 +1,6 @@
+@st.cache_data
+def load_data():
+    return "loaded"
 import streamlit as st
 
 st.set_page_config(page_title="Professional Resume Builder", layout="centered")
